@@ -12,14 +12,14 @@ export default function Footer(){
               <li>               
               <Link to="/" className="links">Home</Link>
               </li>
-              <li>               
+             {/* <li>               
               <Link to="/booking" className="links">Booking</Link>
 
               </li>
               <li>       
               <Link to="/review" className="links">Review</Link>
         
-              </li>
+              </li> */}
             
                 
                 
@@ -27,10 +27,11 @@ export default function Footer(){
             </ul>
             <ul >
                 <h4>Contact Us</h4>
-                <li><i className="fa-solid fa-phone"></i>9876543210</li>
-                <li><i className="fa-solid fa-phone"></i>9876567873</li>
-                <li><i className="fa-solid fa-envelope"></i><a href = "mailto: abc@gmail.com">abc@gmail.com</a></li>
-                <li><i className="fa-solid fa-envelope"></i><a href = "mailto: xyz@gmail.com">xyz@gmail.com</a></li>
+                <h4>Contact Us</h4>
+                <li><i className="fa-solid fa-phone"></i>9790145847</li>
+                {/* <li><i className="fa-solid fa-phone"></i>9876567873</li> */}
+                <li><i className="fa-solid fa-envelope"></i><a href = "mailto: abc@gmail.com">TOPGAINFASHION78@GMA~IL.COM</a></li>
+                {/* <li><i className="fa-solid fa-envelope"></i><a href = "mailto: xyz@gmail.com">xyz@gmail.com</a></li> */}
                
             </ul>
             <ul >
