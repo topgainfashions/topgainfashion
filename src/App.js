@@ -1,8 +1,7 @@
 import './App.css';
 import { BrowserRouter ,Route,NavLink,Routes } from "react-router-dom";
 import Home from "./pages/Home"
-import Booking from "./pages/Booking"
-import Review from "./pages/Review"
+
 import { useState } from 'react';
 import Footer from './components/footer';
 import Scrolltop from './components/scrolltop';
